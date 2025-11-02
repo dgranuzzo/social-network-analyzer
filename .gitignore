@@ -1,0 +1,38 @@
+# === Python build / cache ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# === Pastas de saída e dados ===
+out/
+slides/
+*.csv
+*.png
+*.mp3
+*.wav
+*.jpg
+*.jpeg
+
+# === Ambientes virtuais ===
+.venv/
+venv/
+env/
+ENV/
+
+# === Arquivos temporários / IDE ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Sistema operacional ===
+.DS_Store
+Thumbs.db
+
+# === Arquivos de modelo HuggingFace (se usar Transformers) ===
+/models/
+/cache/
+/transformers_cache/
+/datasets_cache/

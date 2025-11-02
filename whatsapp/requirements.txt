@@ -1,0 +1,15 @@
+# Núcleo de análise de chat e gráficos
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+wordcloud>=1.9.2
+
+# Suporte a fusos horários (opcional)
+pytz>=2024.1
+
+# Modelos de linguagem (opcional para análise de toxicidade com Transformers)
+torch>=2.2.0
+transformers>=4.40.0
+
+# Interface gráfica opcional (para versão Streamlit futura)
+streamlit>=1.37.0
